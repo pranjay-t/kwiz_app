@@ -1,17 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:kwiz_app/feature/quiz/presentation/bloc/quiz_bloc.dart';
 import 'package:kwiz_app/feature/quiz/presentation/pages/quiz_home_page.dart';
 import 'package:kwiz_app/init_dependency.dart';
 
 void main() async {
-  try {
-    await dotenv.load(fileName: '.env');
-  } catch (e) {
-    debugPrint("Failed to load .env file: ${e.toString()}");
-  }
   WidgetsFlutterBinding.ensureInitialized();
   
   await initDependencies();
