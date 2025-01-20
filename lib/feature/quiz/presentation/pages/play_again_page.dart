@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kwiz_app/core/common/theme/pallete.dart';
 import 'package:kwiz_app/feature/quiz/presentation/pages/questions_screen.dart';
-import 'package:kwiz_app/feature/quiz/presentation/pages/quiz_home_page.dart';
 
 class PlayAgainPage extends StatelessWidget {
   const PlayAgainPage({super.key});
@@ -22,7 +21,7 @@ class PlayAgainPage extends StatelessWidget {
             ),
           ),
           Text(
-            'Let’s Do This Again!',
+            'Let\'s Do This Again!',
             style: TextStyle(
               color: Colors.black,
               fontSize: 24,

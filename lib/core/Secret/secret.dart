@@ -1,3 +1,5 @@
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+
 class Secret {
-  static const String apiUrl = 'https://api.jsonserve.com/Uw5CrX';
+  static String get apiUrl => dotenv.env['API_URL']!;
 }
