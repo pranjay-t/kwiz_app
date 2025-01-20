@@ -7,9 +7,9 @@ import 'package:kwiz_app/init_dependency.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   await initDependencies();
-  
+
   runApp(MultiBlocProvider(
     providers: [
       BlocProvider(
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
       title: 'Kwiz App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          textTheme: GoogleFonts.poppinsTextTheme(
+          textTheme: GoogleFonts.playTextTheme(
             const TextTheme(
               bodyLarge: TextStyle(color: Colors.white),
               bodyMedium: TextStyle(color: Colors.white),

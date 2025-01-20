@@ -59,6 +59,7 @@ class QuestionCard extends StatelessWidget {
             ),
             ListView.builder(
               shrinkWrap: true,
+              physics: NeverScrollableScrollPhysics(),
               padding: EdgeInsets.all(0),
               itemCount: question.options.length,
               itemBuilder: (BuildContext context, int index) {

@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:kwiz_app/core/Secret/secret.dart';
+import 'package:kwiz_app/secret.dart';
 import 'package:kwiz_app/core/error/exception.dart';
 import 'package:kwiz_app/feature/quiz/data/model/quiz_model.dart';
 import 'package:http/http.dart' as http;

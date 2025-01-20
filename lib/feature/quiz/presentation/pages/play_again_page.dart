@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kwiz_app/core/common/theme/pallete.dart';
 import 'package:kwiz_app/feature/quiz/presentation/pages/questions_screen.dart';
+import 'package:kwiz_app/feature/quiz/presentation/pages/quiz_home_page.dart';
 
 class PlayAgainPage extends StatelessWidget {
   const PlayAgainPage({super.key});
@@ -35,7 +36,7 @@ class PlayAgainPage extends StatelessWidget {
           ElevatedButton(
             onPressed: () => Navigator.pushAndRemoveUntil(
                 context,
-                MaterialPageRoute(builder: (context) => QuestionsScreen()),
+                MaterialPageRoute(builder: (context) => QuizHomePage()),
                 (route) => false),
             style: ElevatedButton.styleFrom(
               backgroundColor: Pallete.appTheme,
