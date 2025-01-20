@@ -1,16 +1,38 @@
-# kwiz_app
+# Kwiz App
 
-A new Flutter project.
+Kwiz App is a quiz application built with Flutter, designed to provide an interactive and engaging experience for users. The app allows users to take quizzes, view results, and interact with a leaderboard.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Quiz Gameplay**: Take quizzes with various categories and levels.
+- **Leaderboard**: View the leaderboard and compare your scores with others.
+- **Results Summary**: After completing the quiz, view the detailed results with correct/incorrect answers.
+- **Play Again**: Restart the quiz and try to improve your score.
+- **User-friendly UI**: Easy to navigate and visually appealing UI for a smooth experience.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: The framework used to build this cross-platform mobile application.
+- **Dart**: Programming language used to write the app.
+- **BLoC**: State management solution used for managing app states.
+- **GetIt**: Used for Dependency Injection to decouple dependencies.
+- **Clean Architecture**: The app is structured following clean architecture principles, ensuring maintainable and scalable code.
+- **SOLID Principles**: The app follows SOLID principles to ensure code quality, maintainability, and extensibility.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Additional State Management Proficiency:
+- **GetX**: Proficient in GetX for state management and routing.
+- **Riverpod**: Familiar with Riverpod for state management.
+- **Cubit**: Experienced with Cubit for managing states in a simplified way.
+
+## Setup
+
+### Prerequisites
+
+- **Flutter**: You need to have Flutter installed on your machine. You can follow the installation instructions on the official Flutter website: [Flutter Installation](https://flutter.dev/docs/get-started/install)
+- **Dart**: Dart is bundled with Flutter, so you do not need to install it separately.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/kwiz_app.git
