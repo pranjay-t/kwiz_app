@@ -43,3 +43,50 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Flutter/Dart specific
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+flutter_export_environment.sh
+build/
+.codelldb/
+
+# IntelliJ IDEs (e.g., Android Studio)
+.idea/
+*.iml
+*.iws
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+.swo
+
+# Generated files
+generated_plugin_registrant.dart
+
+# Flutter test coverage
+coverage/
+
+# Environment files
+.env
+
+# Temporary files
+*.tmp
+*.log
+
+# Firebase and Google Services
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+/lib/core/Secret
