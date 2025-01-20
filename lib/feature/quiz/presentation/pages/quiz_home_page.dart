@@ -27,7 +27,7 @@ class QuizHomePage extends StatelessWidget {
             alignment: Alignment.center,
             child: Image.asset(
               'assets/images/apptxt.png',
-              width: 300,
+              width: 350,
             ),
           ),
           Align(
