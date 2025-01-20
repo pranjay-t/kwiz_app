@@ -78,8 +78,7 @@ generated_plugin_registrant.dart
 # Flutter test coverage
 coverage/
 
-# Environment files
-.env
+
 
 # Temporary files
 *.tmp
@@ -89,4 +88,4 @@ coverage/
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
 
-/lib/core/Secret
+lib/core/Secret
