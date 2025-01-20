@@ -23,6 +23,7 @@ Kwiz App is a quiz application built with Flutter, designed to provide an intera
 - **GetX**: Proficient in GetX for state management and routing.
 - **Riverpod**: Familiar with Riverpod for state management.
 - **Cubit**: Experienced with Cubit for managing states in a simplified way.
+  
 
 ## Setup
 
@@ -31,8 +32,14 @@ Kwiz App is a quiz application built with Flutter, designed to provide an intera
 - **Flutter**: You need to have Flutter installed on your machine. You can follow the installation instructions on the official Flutter website: [Flutter Installation](https://flutter.dev/docs/get-started/install)
 - **Dart**: Dart is bundled with Flutter, so you do not need to install it separately.
 
+  ### Screenshots and Demo Video
+
+You can view the app demo and UI walkthrough by checking the video here: [Kwiz App Demo](https://drive.google.com/drive/folders/1NlK3NOeKznDbPYrIzfEkPFAzGJ8iBatp?usp=sharing)
+
 ### Installation
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/kwiz_app.git
+
+   
